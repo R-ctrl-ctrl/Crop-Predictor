@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rebeccapurple;
+}
+
+
+.container{
+    margin: auto;
+    width: 80%;
+    background-color: white;
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    height: 50vh;
+    justify-content: space-around;
+}
+
+.upper{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+
+
+.lower{
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-evenly;
+}
+
+input{
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px 4px;
+    
+    outline: none;
+}
+
+
+
+.btun{
+    display: block;
+    margin: auto;
+    background-color: cornflowerblue;
+    width: 10%;
+    padding: 4px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
